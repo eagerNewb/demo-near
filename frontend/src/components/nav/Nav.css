@@ -1,0 +1,28 @@
+#root nav.nav-rooms {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#root nav.nav-rooms .nav-links {
+    padding: 1rem 9.5rem 1rem 9.5rem;
+
+    flex: 1;
+    flex-shrink: 1;
+    flex-grow: 0;
+
+    text-align: center;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+    color: #000;
+    background: #FFE779;
+    text-decoration: none;
+
+    border-radius: 0.4rem;
+    box-shadow: 2px 1px 0px 3px #000;
+}
